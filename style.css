@@ -43,20 +43,22 @@ section {
     display: inline-block;
     margin: 20px;
     border-radius: 50%; 
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    transition: outline 0.3s ease, transform 0.3s ease;
 }
 
 .planet-image:hover {
-    box-shadow: 0 0 10px 4px #7e7e7e; 
+    outline: 4px solid #7e7e7e;
     transform: scale(1.05);
 }
 
 .earth {
     width: 300px; 
     height: auto;
+    object-fit: cover;
 }
 
 .moon {
     width: 150px; 
-    height: auto;
+    height: 150px;
+    object-fit: cover;
 }
