@@ -47,7 +47,6 @@ section {
 }
 
 .planet-image:hover {
-    box-shadow: 0 0 0 calc(10% + 4px) #7e7e7e; 
     transform: scale(1.05);
 }
 
