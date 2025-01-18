@@ -42,12 +42,12 @@ section {
 .planet-image {
     display: inline-block;
     margin: 20px;
-    border-radius: 50%;
-    transition: outline 0.3s ease, transform 0.3s ease;
+    border-radius: 50%; 
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .planet-image:hover {
-    outline: 4px solid #7e7e7e;
+    box-shadow: 0 0 10px 4px #7e7e7e; 
     transform: scale(1.05);
 }
 
@@ -59,8 +59,4 @@ section {
 .moon {
     width: 150px; 
     height: auto;
-}
-
-.active .planet-image {
-    outline: 4px solid #f4f4f9; 
 }
