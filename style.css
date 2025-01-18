@@ -43,7 +43,7 @@ section {
     display: inline-block;
     margin: 20px;
     border-radius: 50%; 
-    transition: outline 0.3s ease, transform 0.3s ease;
+    transition: outline;
 }
 
 .planet-image:hover {
