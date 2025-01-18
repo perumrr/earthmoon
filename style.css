@@ -1,10 +1,11 @@
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     background-color: #333;
     color: #f4f4f9;
+    text-align: center; 
 }
 
 header {
@@ -18,17 +19,24 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
-    margin: 40px 0;
+    margin: 20px 0;
     padding: 10px;
 }
 
 p {
-    margin: 40px 0;
+    margin: 20px 0;
     padding: 20px;
 }
 
 section {
     margin: 20px 0;
+}
+
+.planet-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    margin-top: 40px;
 }
 
 .planet-image {
@@ -44,11 +52,15 @@ section {
 }
 
 .earth {
-    width: 250px;
-    height: 250px;
+    width: 300px; 
+    height: auto;
 }
 
 .moon {
-    width: 100px;
+    width: 150px; 
     height: auto;
+}
+
+.active .planet-image {
+    outline: 4px solid #f4f4f9; 
 }
